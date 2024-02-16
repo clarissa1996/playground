@@ -22,12 +22,24 @@ body {
 }
 
 .welcome{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     position: absolute;
-    left: 28%;
+    width: 100%;
     top:20%;
     font-size: 30vh;
     color:antiquewhite;
     font-family: 'Lobster', sans-serif;
+}
+.welcome p{
+    position: relative;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30vh;
+    color:antiquewhite;
+    font-family: 'Lobster', sans-serif; 
 }
 
 .headlink{
@@ -62,6 +74,7 @@ margin-right: 50px;
 .placeholder{
     height: 100px;
 }
+
 .about-me-container{
     text-align: center;
     margin: 0px;
